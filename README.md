@@ -43,3 +43,13 @@ Read through the stored data and keep track of the 10 most used combinations. Fo
 Table - each row is the combination + the occurance percentage. Percentage is the number of occurances/total combinations * 100%.
 Diagram can be an ascii of ===. Percentage * “=” as the bar.
 Both need some formating to look nice.
+
+## Extra considerations
+
+The code is compiled against c++98. That means none of the nice new features of c++.
+
+The compile command:
+> g++ test.cpp -o test -std=c++98 -pedantic
+
+g++ version:
+> g++ (GCC) 8.2.1 20181127
