@@ -46,6 +46,8 @@ Both need some formating to look nice.
 
 ## Extra considerations
 
+The code uses std::isalpha which checks for us-ascii letters. Everything else is considered not a valid letter which in turn means character sequence "akrsärsen" consists of two different valid words.
+
 The code is compiled against c++98. That means none of the nice new features of c++.
 
 The compile command:
